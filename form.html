@@ -3,38 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <table>
-        <center>
-        <a href="index.html">
-            <h1>GOWRI.M.D</h1>
-        </a>   
-        <h4>WEB DEVELOPER</h4>
-        </center>                              
-        <tr>
-            <td>NAME:</td>
-            <td><input type="text" placeholder="NAME"></td>
-        </tr>
-        <tr>
-            <td>EMAIL:</td>
-            <td><input type="text" placeholder="MAIL"</td>
-        </tr>
-        <tr>
-            <td>MESSAGE:</td>
-            <td><textarea placeholder="MESSAGE"></textarea></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit"></td>
-        </tr>
-        </table>
-    </form>
-    <p>social media:
-        <a href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN</a>
-    </p>
-    <h5>&copy;GOWRI.M.D</h5>
+    <div class="container">
+        <div class="section-one">
+             <center>
+            <h1 class="section-one__name">GOWRI.M.D</h1>
+            <p class="section-one__role">Web Developer<p>
+            </center>
+            <a class="section-one__contact" href="index.html">HOME</a>
+        </div>
+    <div class="contact-form">
+        <form>
+            <table>                              
+                <tr>
+                    <td>NAME:</td>
+                    <td><input type="text" placeholder="NAME" class="contact-form__input"></td>
+                </tr>
+                <tr>
+                    <td>EMAIL:</td>
+                    <td><input type="text" placeholder="MAIL"class="contact-form__input"></td>
+                </tr>
+                <tr>
+                    <td>MESSAGE:</td>
+                    <td><textarea placeholder="MESSAGE"class="contact-form__textarea"></textarea></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><input type="submit"class="contact-form__submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>    
+    <div class="section-five">
+        <p class="section-five__title">Social Media:
+        <a href="https://www.linkedin.com/in/gowri-m-d-a1b6b8304/" type="_blank">LinkedIn</a>
+        </p>
+        <p class="section-five__desc">&copy; GOWRI.M.D</p>
+    </div>
+</div>
 </body>
 </html>
